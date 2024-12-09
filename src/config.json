@@ -1,0 +1,13 @@
+{
+    "model": {
+        "path": "EleutherAI/gpt-neo-1.3B"  // Use a Hugging Face model name or local path
+    },
+    "tiling": {
+        "tile_size": 512
+    },
+    "scheduler": {
+        "max_cpu_usage": 70,
+        "max_gpu_usage": 70,
+        "max_npu_usage": 70
+    }
+}
